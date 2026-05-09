@@ -1,219 +1,332 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/fr/canalplus.afrique.xml"
-
-# ==========================================
-# 🎬 SECTION VOD : FILMS & SÉRIES
-# ==========================================
-#EXTINF:-1 tvg-logo="https://i.imgur.com/WlG3kK5.png" group-title="VOD FILMS",🎥 BOX OFFICE : FILMS EN FRANÇAIS
-https://iptv-org.github.io/iptv/categories/movies.m3u
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/vH9YfP3.png" group-title="VOD SERIES",📺 SÉRIES & NOVELAS FR
-https://iptv-org.github.io/iptv/categories/entertainment.m3u
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/w4WfE5B.png" group-title="VOD ENFANTS",🧸 DESSINS ANIMÉS (FR)
-https://iptv-org.github.io/iptv/categories/kids.m3u
-
-# ==========================================
-# 🇬🇦 GABON
-# ==========================================
-#EXTINF:0 tvg-country="GA" group-title="GABON",Gabon 1ere
+https://iptv-org.github.io/iptv/languages/fra.m3u
+#EXTM3U
+#EXTINF:tvg-country="GA" tvg-logo="" group-title="Undefined",Gabon 1ere (1080p)
 #EXTGRP:GABON
 https://vps112773.serveur-vps.net/hls/stream.m3u8?checkedby:iptvcat.net
-
-#EXTINF:0 tvg-country="GA" group-title="GABON",Gabon Premiére TV
+#EXTINF:tvg-country="GA" tvg-logo="" group-title="Undefined",Gabon Premiére TV
 #EXTGRP:GABON
 https://vps73918.serveur-vps.net/hls/ggtv.m3u8?checkedby:iptvcat.net
-
-#EXTINF:0 tvg-country="GA" group-title="GABON",Télé Africa
+#EXTINF:tvg-country="GA" tvg-logo="" group-title="Undefined",Télé Africa (360p)
 #EXTGRP:GABON
 http://185.59.221.131:8081/live/teleafrica/playlist.m3u8?checkedby:iptvcat.net
-
-#EXTINF:0 tvg-country="GA" group-title="GABON",Label TV
-#EXTGRP:GABON
-https://live3.acangroup.org:1929/publiclive/labeltv/chunks.m3u8?checkedby:iptvcat.net
-
-# ==========================================
-# 🇨🇲 CAMEROUN
-# ==========================================
-#EXTINF:0 tvg-country="CM" group-title="CAMEROUN",Africa+ News
-#EXTGRP:CAMEROUN
+#EXTINF:tvg-country="CM" tvg-logo="" group-title="News",Africa+ News (480p) [Not 24/7]
+#EXTGRP:MELMJANGE TEST
 http://connectiktv.ddns.me:8080/live/61f1b992a6e8a-1/index.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CM" group-title="CAMEROUN",Afrique Média
-#EXTGRP:CAMEROUN
+#EXTINF:tvg-country="CM" tvg-logo="" group-title="Undefined",Afrique Média (480p) [Not 24/7]
+#EXTGRP:MELMJANGE TEST
 https://cloud.odysee.live/content/fe06b3cdc9412e359368b2455b6ea5e93856e382/master.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CM" group-title="CAMEROUN",Afrobit
-#EXTGRP:CAMEROUN
+#EXTINF:tvg-country="CM" tvg-logo="" group-title="Undefined",Afrobit (480p) [Not 24/7]
+#EXTGRP:MELMJANGE TEST
 http://connectiktv.ddns.me:8080/live/61f2632aa8934-1/index.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CM" group-title="CAMEROUN",CEN Télévision
-#EXTGRP:CAMEROUN
+#EXTINF:tvg-country="CM" tvg-logo="" group-title="Undefined",CEN Télévision (1080p)
+#EXTGRP:MELMJANGE TEST
 https://strhlslb01.streamakaci.tv/cen/cen-multi/playlist.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CM" group-title="CAMEROUN",CRTV
-#EXTGRP:CAMEROUN
+#EXTINF:tvg-country="CM" tvg-logo="" group-title="Undefined",CRTV
+#EXTGRP:MELMJANGE TEST
 http://69.64.57.208/crtv/playlist.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CM" group-title="CAMEROUN",Balafon TV
-#EXTGRP:CAMEROUN
+#EXTINF:tvg-country="CM" tvg-logo="" group-title="Undefined",Balafon TV (1080p) [Not 24/7]
+#EXTGRP:MELMJANGE TEST
 https://cloud.odysee.live/content/d174f640b38d9d2f3967fd5e1b47b58c58f911a1/master.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CM" group-title="CAMEROUN",CAM 10 TV
-#EXTGRP:CAMEROUN
+#EXTINF:tvg-country="CM" tvg-logo="" group-title="Undefined",CAM 10 TV
+#EXTGRP:MELMJANGE TEST
 https://stream.it-innov.com/cam10tv/index.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CM" group-title="CAMEROUN",Canal 2 International
-#EXTGRP:CAMEROUN
+#EXTINF:tvg-country="CM" tvg-logo="" group-title="Undefined",Canal 2 International (360p) [Not 24/7]
+#EXTGRP:MELMJANGE TEST
 https://rpn3.bozztv.com/ssh101/ssh101/canal2live/playlist.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CM" group-title="CAMEROUN",Canal 2 Movies
-#EXTGRP:CAMEROUN
+#EXTINF:tvg-country="CM" tvg-logo="" group-title="Undefined",Canal 2 Movies
+#EXTGRP:MELMJANGE TEST
 https://stream.ecable.tv/canal2m/tracks-v1a1/mono.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CM" group-title="CAMEROUN",Equinoxe TV (Flux 1)
-#EXTGRP:CAMEROUN
-http://69.64.57.208/equinoxtv/playlist.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CM" group-title="CAMEROUN",Equinoxe TV (Flux 2)
-#EXTGRP:CAMEROUN
-https://stream.ecable.tv/equinox/tracks-v1a1/mono.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CM" group-title="CAMEROUN",TR24
-#EXTGRP:CAMEROUN
-https://stream.it-innov.com/tr24/index.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CM" tvg-logo="https://i.imgur.com/FekWmTu.jpg" group-title="CAMEROUN",Vision 4
-#EXTGRP:CAMEROUN
-http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/vision4/hls_video/index.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CM" group-title="CAMEROUN RELIGION",Canal de Vie
-#EXTGRP:CAMEROUN
+#EXTINF:tvg-country="CM" tvg-logo="" group-title="Undefined",Canal de Vie (360p)
+#EXTGRP:MELMJANGE TEST
 https://edge13.vedge.infomaniak.com/livecast/ik:canaldevie/playlist.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CM" group-title="CAMEROUN RELIGION",Charis TV
-#EXTGRP:CAMEROUN
+#EXTINF:tvg-country="CM" tvg-logo="" group-title="Undefined",Charis TV (480p) [Not 24/7]
+#EXTGRP:MELMJANGE TEST
 http://connectiktv.ddns.me:8080/live/63b4aa65658ce/index.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CM" group-title="CAMEROUN RELIGION",Château Télévision
-#EXTGRP:CAMEROUN
+#EXTINF:tvg-country="CM" tvg-logo="" group-title="Undefined",Château Télévision (480p) [Not 24/7]
+#EXTGRP:MELMJANGE TEST
 http://connectiktv.ddns.me:8080/live/620e3a0d3d67c/index.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CM" group-title="CAMEROUN RELIGION",Excel Discovery TV
-#EXTGRP:CAMEROUN
+#EXTINF:tvg-country="CM" tvg-logo="" group-title="Undefined",Equinoxe TV
+#EXTGRP:MELMJANGE TEST
+http://69.64.57.208/equinoxtv/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:tvg-country="CM" tvg-logo="" group-title="Undefined",Equinoxe TV
+#EXTGRP:MELMJANGE TEST
+https://stream.ecable.tv/equinox/tracks-v1a1/mono.m3u8?checkedby:iptvcat.com
+#EXTINF:tvg-country="CM" tvg-logo="" group-title="Undefined",Excel Discovery TV (480p) [Not 24/7]
+#EXTGRP:MELMJANGE TEST
 http://connectiktv.ddns.me:8080/live/61f6352d2b4d5-1/index.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CM" group-title="CAMEROUN RELIGION",Glory Christ Channel
-#EXTGRP:CAMEROUN
+#EXTINF:tvg-country="CM" tvg-logo="" group-title="Undefined",Glory Christ Channel (720p)
+#EXTGRP:MELMJANGE TEST
 https://stream.it-innov.com/gcc/index.m3u8?checkedby:iptvcat.com
-
-# ==========================================
-# 🇨🇮 CÔTE D'IVOIRE
-# ==========================================
-#EXTINF:0 tvg-country="CI" group-title="COTE D'IVOIRE",A+ Ivoire
-#EXTGRP:COTE D'IVOIRE
+#EXTINF:tvg-country="CM" tvg-logo="" group-title="Undefined",TR24 (720p)
+#EXTGRP:MELMJANGE TEST
+https://stream.it-innov.com/tr24/index.m3u8?checkedby:iptvcat.com
+#EXTINF:tvg-country="CM" tvg-logo="https://i.imgur.com/FekWmTu.jpg" group-title="Undefined",Vision 4
+#EXTGRP:MELMJANGE TEST
+http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/vision4/hls_video/index.m3u8?checkedby:iptvcat.com
+#EXTINF:tvg-country="GA" tvg-logo="" group-title="Undefined",Label TV (480p)
+#EXTGRP:MELMJANGE TEST
+https://live3.acangroup.org:1929/publiclive/labeltv/chunks.m3u8?checkedby:iptvcat.net
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",A+ Ivoire (720p)
+#EXTGRP:MELMJANGE TEST
 http://69.64.57.208/atv/playlist.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CI" group-title="COTE D'IVOIRE",NCI (Lien 1)
-#EXTGRP:COTE D'IVOIRE
-https://pixa.cdn.easybroadcast.fr/nci/nci.isml/Playlist.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CI" group-title="COTE D'IVOIRE",NCI (Lien 2)
-#EXTGRP:COTE D'IVOIRE
-https://cdnapisec.kaltura.com/p/5571652/sp/5571652/playManifest/entryId/1_no7nfr0h/deliveryProfileId/672/protocol/https/format/applehttp/a.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CI" group-title="COTE D'IVOIRE",RTI 1
-#EXTGRP:COTE D'IVOIRE
-https://www.enovativecdn.com/rticdn/smil:rti1.smil/playlist.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CI" group-title="COTE D'IVOIRE",Life TV
-#EXTGRP:COTE D'IVOIRE
-https://strhls.streamakaci.tv/str_lifetv_lifetv/str_lifetv_multi/playlist.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CI" group-title="COTE D'IVOIRE",Business 24 Africa
-#EXTGRP:COTE D'IVOIRE
-https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/business24_tv/hls_video/index.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CI" group-title="COTE D'IVOIRE",A12 TV
-#EXTGRP:COTE D'IVOIRE
-https://video1.getstreamhosting.com:1936/8250/8250/manifest.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CI" group-title="COTE D'IVOIRE",Benie TV
-#EXTGRP:COTE D'IVOIRE
-https://voozmedia.fun/benietv/livestream/playlist.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CI" group-title="COTE D'IVOIRE",Ecclesia TV
-#EXTGRP:COTE D'IVOIRE
-https://video1.getstreamhosting.com:1936/8294/8294/playlist.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CI" group-title="COTE D'IVOIRE",Novela Channel
-#EXTGRP:COTE D'IVOIRE
-https://video1.getstreamhosting.com:1936/8284/8284/playlist.m3u8?checkedby:iptvcat.com
-
-# ==========================================
-# 🇨🇩 RDC CONGO
-# ==========================================
-#EXTINF:0 tvg-country="CD" group-title="RDC CONGO",RTNC
-#EXTGRP:RDC CONGO
-https://tnt-television.com/rtnc_HD/index.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CD" group-title="RDC CONGO",RTNC 3
-#EXTGRP:RDC CONGO
-http://51.254.199.122:8080/e-cableRTNC3/index.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CD" group-title="RDC CONGO",Digital Congo TV
-#EXTGRP:RDC CONGO
-https://tv2.isi-broadcast.tech/ISI-BROADCAST/DIGITAL-TV/index.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CD" group-title="RDC CONGO",RUMBA TV
-#EXTGRP:RDC CONGO
-https://tnt-television.com/RUMBA-TV/index.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CD" group-title="RDC CONGO",Afrobeats Music
-#EXTGRP:RDC CONGO
+#EXTINF:vg-country="CD" tvg-logo="" group-title="Undefined",10'ème Rue TV (1080p)
+#EXTGRP:MELMJANGE TEST
+https://tv1.isi-broadcast.tech/10eme-tv/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CD" tvg-logo="" group-title="Music",Afrobeats
+#EXTGRP:MELMJANGE TEST
 https://stream.ecable.tv/afrobeats/index.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="CD" group-title="RDC CONGO",Mishapi Voice TV
-#EXTGRP:RDC CONGO
+#EXTINF:vg-country="CD" tvg-logo="" group-title="Undefined",CBC TV (720p)
+#EXTGRP:MELMJANGE TEST
+https://stream.berosat.live:19360/cbc-tv/cbc-tv.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CD" tvg-logo="" group-title="Undefined",CCPV TV (1080p)
+#EXTGRP:MELMJANGE TEST
+https://tv1.isi-broadcast.tech/CCPV-TV/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CD" tvg-logo="" group-title="Undefined",CCPV TV (1080p)
+#EXTGRP:MELMJANGE TEST
+https://tnt-television.com/CCPV-TV/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CD" tvg-logo="" group-title="Undefined",CNTV Canal Numérique (720p)
+#EXTGRP:MELMJANGE TEST
+https://tv1.isi-broadcast.tech/CN-TV_CANAL/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CD" tvg-logo="" group-title="Undefined",Compassion TV (240p)
+#EXTGRP:MELMJANGE TEST
+https://tnt-television.com/COMPASSION_FM/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CD" tvg-logo="" group-title="Undefined",Congo Live TV (480p) [Not 24/7]
+#EXTGRP:MELMJANGE TEST
+https://ythls.armelin.one/channel/UCU9aU4RtgSnB5elKQYGjFuQ.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CD" tvg-logo="" group-title="Undefined",Digital Congo TV (480p)
+#EXTGRP:MELMJANGE TEST
+https://tv2.isi-broadcast.tech/ISI-BROADCAST/DIGITAL-TV/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CD" tvg-logo="" group-title="Undefined",Digital Congo TV (480p)
+#EXTGRP:MELMJANGE TEST
+https://tnt-television.com/DIGITAL_REGIE/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CD" tvg-logo="" group-title="Undefined",EGG PRO TV (720p)
+#EXTGRP:MELMJANGE TEST
+https://cdn.mycloudstream.io/hls/live/broadcast/mgshes9q/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CD" tvg-logo="" group-title="Undefined",Mishapi Voice TV (1080p)
+#EXTGRP:MELMJANGE TEST
 https://tnt-television.com/MISHAPI-STREAM1/index.m3u8?checkedby:iptvcat.com
-
-# ==========================================
-# 🇬🇳 GUINÉE & 🇲🇱 MALI
-# ==========================================
-#EXTINF:0 tvg-country="GN" group-title="GUINEE",RTG 1
-#EXTGRP:GUINEE
-http://69.64.57.208/rtg/playlist.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="GN" group-title="GUINEE",Kalac TV
-#EXTGRP:GUINEE
+#EXTINF:vg-country="CD" tvg-logo="" group-title="Undefined",Molière TV (576p) [Not 24/7]
+#EXTGRP:MELMJANGE TEST
+https://tv1.isi-broadcast.tech/MOLIERETV-STREAM1/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CD" tvg-logo="" group-title="Undefined",Nyota TV (360p) [Not 24/7]
+#EXTGRP:MELMJANGE TEST
+http://51.254.199.122:8080/noyaTV/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CD" tvg-logo="" group-title="Undefined",Parole Éternelle TV (1080p)
+#EXTGRP:MELMJANGE TEST
+https://tv2.isi-broadcast.tech/ISI-BROADCAST/PAROLETV/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CD" tvg-logo="" group-title="Undefined",RTNC (540p)
+#EXTGRP:MELMJANGE TEST
+https://tnt-television.com/rtnc_HD/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CD" tvg-logo="" group-title="Undefined",RTNC 3
+#EXTGRP:MELMJANGE TEST
+http://51.254.199.122:8080/e-cableRTNC3/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CD" tvg-logo="" group-title="Undefined",RTVS1
+#EXTGRP:MELMJANGE TEST
+http://51.254.199.122:8080/RTVS1/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CD" tvg-logo="" group-title="Undefined",RUMBA TV (486p)
+#EXTGRP:MELMJANGE TEST
+https://tnt-television.com/RUMBA-TV/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CD" tvg-logo="" group-title="Undefined",Tokomi Wapi TV (720p) [Not 24/7]
+#EXTGRP:MELMJANGE TEST
+https://tv1.isi-broadcast.tech/TOKOMI-WAPI/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="GN" tvg-logo="" group-title="Undefined",Evasion TV (720p)
+#EXTGRP:MELMJANGE TEST
+https://kali1.everestcast.com:3235/live/visionweblive.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="GN" tvg-logo="" group-title="Undefined",Fasso TV Kankan
+#EXTGRP:MELMJANGE TEST
+https://dvrfl06.bozztv.com/astv-fassotv/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="GN" tvg-logo="" group-title="Undefined",Fasso TV Kankan (720p) [Not 24/7]
+#EXTGRP:MELMJANGE TEST
+https://cageu.bozztv.com/ssh101/ssh101/fassotv1/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="GN" tvg-logo="" group-title="Undefined",Guinée TV1 (576p) [Not 24/7]
+#EXTGRP:MELMJANGE TEST
+https://live.kgsols.com/push/5738602793391390dff3dac4991d158c.sdp/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="GN" tvg-logo="" group-title="Undefined",Kalac TV (1080p)
+#EXTGRP:MELMJANGE TEST
 https://edge13.vedge.infomaniak.com/livecast/ik:kalactv/chunklist_w280736538.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="ML" group-title="MALI",Africable TV
-#EXTGRP:MALI
-http://69.64.57.208/africable/playlist.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="ML" group-title="MALI",ORTM 1
-#EXTGRP:MALI
-https://cs2.push2stream.com/ORTM-DVR/playlist.m3u8?checkedby:iptvcat.com
-
-# ==========================================
-# 🌍 AUTRES PAYS (MAROC, LIBYE, NIGERIA...)
-# ==========================================
-#EXTINF:0 tvg-country="MA" group-title="MAROC",2M Monde
-#EXTGRP:MAROC
-https://fl1002.bozztv.com/ga-2mmaroc-hd/index.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="MA" group-title="MAROC",Aflam TV
-#EXTGRP:MAROC
-https://fl1002.bozztv.com/ga-aflamtv7/index.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="LY" group-title="LIBYE",Salam TV
-#EXTGRP:LIBYE
+#EXTINF:vg-country="GN" tvg-logo="" group-title="Undefined",RTG 1
+#EXTGRP:MELMJANGE TEST
+http://69.64.57.208/rtg/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="GN" tvg-logo="" group-title="Undefined",RTG 1 (240p) [Not 24/7]
+#EXTGRP:MELMJANGE TEST
+https://stream.castr.com/6358a30fa50e3ae11b6d0424/live_e05d20809c3611edadb72177341481c3/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="GN" tvg-logo="" group-title="Undefined",RTG 2 (240p) [Not 24/7]
+#EXTGRP:MELMJANGE TEST
+https://stream.castr.com/6358a30fa50e3ae11b6d0424/live_cbde16509c3611ed91f289dac03ffaaf/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",A12 TV
+#EXTGRP:MELMJANGE TEST
+https://video1.getstreamhosting.com:1936/8250/8250/manifest.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",Afro Magic Channel
+#EXTGRP:MELMJANGE TEST
+https://video1.getstreamhosting.com:1936/8490/8490/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",Afro Magic Channel
+#EXTGRP:MELMJANGE TEST
+https://video1.getstreamhosting.com:1936/8306/8306/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",Afroculture TV
+#EXTGRP:MELMJANGE TEST
+https://streamtv.cmediahosthosting.net:3836/live/myafroculturelive.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",Alpha et Omega TV (720p)
+#EXTGRP:MELMJANGE TEST
+https://video1.getstreamhosting.com:1936/8318/8318/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",Benie TV (720p)
+#EXTGRP:MELMJANGE TEST
+https://voozmedia.fun/benietv/livestream/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",Business 24 Africa (480p)
+#EXTGRP:MELMJANGE TEST
+https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/business24_tv/hls_video/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",Business 24 Africa (480p)
+#EXTGRP:MELMJANGE TEST
+https://cdn-globecast.akamaized.net/live/eds/business24_tv/hls_video/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",BÂTIR-TV (576p)
+#EXTGRP:MELMJANGE TEST
+https://webstreaming.viewmedia.tv/web_021/Stream/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",Champion TV
+#EXTGRP:MELMJANGE TEST
+https://stream.berosat.live:19360/champion-tv/720p.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",Champion TV (480p)
+#EXTGRP:MELMJANGE TEST
+https://neriyastreaming.ddns.net/memfs/b92b5d69-7f44-4ae8-a00a-40d70623b1e6.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",Christ Live (720p)
+#EXTGRP:MELMJANGE TEST
+https://voozmedia.fun/stream/christlive/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",Divin Amour TV (720p)
+#EXTGRP:MELMJANGE TEST
+https://voozmedia.fun/divinamourtv/livestream/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",Ecclesia TV
+#EXTGRP:MELMJANGE TEST
+https://video1.getstreamhosting.com:1936/8294/8294/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",Espérance TV (720p)
+#EXTGRP:MELMJANGE TEST
+https://ik084235.ikoula.com/hls/Diff@mobile1.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",Exploits TV
+#EXTGRP:MELMJANGE TEST
+https://stream.berosat.live:19360/exploits-tv/exploits-tv.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",Guide Love TV (720p)
+#EXTGRP:MELMJANGE TEST
+https://video1.getstreamhosting.com:1936/8056/8056/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",Ivoire Channel (720p)
+#EXTGRP:MELMJANGE TEST
+https://video1.getstreamhosting.com:1936/8244/8244/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",LMTV French (720p) [Not 24/7]
+#EXTGRP:MELMJANGE TEST
+https://video1.getstreamhosting.com:1936/8282/8282/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",Life TV
+#EXTGRP:MELMJANGE TEST
+https://strhls.streamakaci.tv/str_lifetv_lifetv/str_lifetv_multi/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",Miracle TV+ (720p)
+#EXTGRP:MELMJANGE TEST
+https://strhlslb01.streamakaci.tv/str_mtv_mtv/str_mtv_multi/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",NCI (1080p)
+#EXTGRP:MELMJANGE TEST
+https://pixa.cdn.easybroadcast.fr/nci/nci.isml/Playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",NCI (1080p)
+#EXTGRP:MELMJANGE TEST
+https://cdnapisec.kaltura.com/p/5571652/sp/5571652/playManifest/entryId/1_no7nfr0h/deliveryProfileId/672/protocol/https/format/applehttp/a.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",Novela Channel (720p) [Not 24/7]
+#EXTGRP:MELMJANGE TEST
+https://video1.getstreamhosting.com:1936/8284/8284/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="CI" tvg-logo="" group-title="Undefined",RTI 1 (1080p)
+#EXTGRP:MELMJANGE TEST
+https://www.enovativecdn.com/rticdn/smil:rti1.smil/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="LY" tvg-logo="" group-title="Undefined",February Channel (1080p)
+#EXTGRP:MELMJANGE TEST
+https://b01c02nl.mediatriple.net/videoonlylive/mtfknklgwrlive/broadcast_5dc818c793576.smil/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="LY" tvg-logo="" group-title="Undefined",Libya Mostakbal (1080p)
+#EXTGRP:MELMJANGE TEST
+http://41.33.221.140:1935/monitor/libyaalmustaqbal.stream/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="LY" tvg-logo="" group-title="Undefined",Libya Mostakbal (408p)
+#EXTGRP:MELMJANGE TEST
+https://media1.livaat.com/Libyah-Mostaqbal/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="LY" tvg-logo="" group-title="Undefined",RTV Lebda (480p)
+#EXTGRP:MELMJANGE TEST
+https://media1.livaat.com/live/Lebda_TV/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="LY" tvg-logo="" group-title="Undefined",Salam TV (1080p)
+#EXTGRP:MELMJANGE TEST
+https://b01c02nl.mediatriple.net/videoonlylive/mtiwaxdzdfggbnlive/broadcast_5d1b0969c3188.smil/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="LY" tvg-logo="" group-title="Undefined",Salam TV (1080p)
+#EXTGRP:MELMJANGE TEST
 https://amsart-live.ercdn.net/salamtv/salamtv.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="NG" group-title="NIGERIA",AfroSport Nigeria
-#EXTGRP:NIGERIA
+#EXTINF:vg-country="MW" tvg-logo="" group-title="Undefined",MBC (720p) [Not 24/7]
+#EXTGRP:MELMJANGE TEST
+https://rpn3.bozztv.com/ssh101/ssh101/mbcmalawi/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="ML" tvg-logo="" group-title="Undefined",Africable TV (360p)
+#EXTGRP:MELMJANGE TEST
+http://69.64.57.208/africable/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="ML" tvg-logo="" group-title="Undefined",Cherifla TV (360p)
+#EXTGRP:MELMJANGE TEST
+http://69.64.57.208/cherifla/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="ML" tvg-logo="" group-title="Undefined",ORTM 1
+#EXTGRP:MELMJANGE TEST
+https://cs2.push2stream.com/ORTM-DVR/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="ML" tvg-logo="" group-title="Undefined",ORTM 1 (540p) [Not 24/7]
+#EXTGRP:MELMJANGE TEST
+http://69.64.57.208/ortm/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="ML" tvg-logo="" group-title="Undefined",ORTM 2
+#EXTGRP:MELMJANGE TEST
+http://69.64.57.208/tm2/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="ML" tvg-logo="" group-title="Undefined",TM1 (360p) [Not 24/7]
+#EXTGRP:MELMJANGE TEST
+http://69.64.57.208/tm1/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="MR" tvg-logo="" group-title="Undefined",El Oussra TV
+#EXTGRP:MELMJANGE TEST
+https://dvrfl06.bozztv.com/astv-elousra/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="MR" tvg-logo="" group-title="Undefined",Sahara 24 (1080i)
+#EXTGRP:MELMJANGE TEST
+http://65.108.206.29/sahara24-live/video.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="MR" tvg-logo="" group-title="Undefined",Sahara 24 (720p)
+#EXTGRP:MELMJANGE TEST
+https://live.saharamedias.net/sahara24-live/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="YT" tvg-logo="" group-title="Undefined",Mayotte One TV (1080p)
+#EXTGRP:MELMJANGE TEST
+https://live.mytv.yt:3946/multi_web/play.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="MA" tvg-logo="https://i.imgur.com/PJYTfHi.png" group-title="General",2M
+#EXTGRP:MELMJANGE TEST
+https://fl1002.bozztv.com/ga-2mmaroc-hd/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="MA" tvg-logo="https://i.imgur.com/MvpntzA.png" group-title="General",2M Monde +1 (1080p)
+#EXTGRP:MELMJANGE TEST
+https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="MA" tvg-logo="https://i.imgur.com/XqQxO9J.png" group-title="Movies",Aflam TV
+#EXTGRP:MELMJANGE TEST
+https://fl1002.bozztv.com/ga-aflamtv7/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="MA" tvg-logo="" group-title="Undefined",Al Aoula International (360p)
+#EXTGRP:MELMJANGE TEST
+https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/al_aoula_inter.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="MA" tvg-logo="" group-title="General;Undefined",Al Aoula International (360p)
+#EXTGRP:MELMJANGE TEST
+https://cdn-globecast.akamaized.net/live/eds/al_aoula_inter/hls_snrt/al_aoula_inter.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="MA" tvg-logo="" group-title="Undefined",Medi 1 TV Afrique (DVR) (1080p)
+#EXTGRP:MELMJANGE TEST
+https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist_dvr.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="NE" tvg-logo="" group-title="Undefined",Canal 3 Monde
+#EXTGRP:MELMJANGE TEST
+https://live20.bozztv.com/dvrfl06/astv/astv-canal3benin1/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="NG" tvg-logo="" group-title="Sport",AfroSport Nigeria
+#EXTGRP:MELMJANGE TEST
 https://newproxy3.vidivu.tv/vidivu_afrosport/index.m3u8?checkedby:iptvcat.com
-
-#EXTINF:0 tvg-country="NG" group-title="NIGERIA",New Frontiers TV
-#EXTGRP:NIGERIA
+#EXTINF:vg-country="NG" tvg-logo="" group-title="Undefined",Emmanuel TV
+#EXTGRP:MELMJANGE TEST
+https://live20.bozztv.com/dvrfl06/astv/astv-emmanuel/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="NG" tvg-logo="" group-title="Undefined",GMTV (480p)
+#EXTGRP:MELMJANGE TEST
+https://webstreaming-11.viewmedia.tv/web_160/Stream/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="NG" tvg-logo="" group-title="Undefined",Lagos Television (360p) [Not 24/7]
+#EXTGRP:MELMJANGE TEST
+https://video.servoserver.com.ng/ltv/livestream.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="NG" tvg-logo="" group-title="Undefined",LoveWorld Euro (270p)
+#EXTGRP:MELMJANGE TEST
+https://cdnstack.internetmultimediaonline.org/auxano/Cespain/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="NG" tvg-logo="" group-title="Undefined",LoveWorld XP (480p)
+#EXTGRP:MELMJANGE TEST
+https://bus-asia-east-1-cimzmgnuu-cdn.sa.metacdn.com/live/ngrp:livestream2022_main_all_transcode/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="NG" tvg-logo="" group-title="Undefined",Lovetoons TV (720p)
+#EXTGRP:MELANGE TEST
+https://kali.vdopanel.com:3674/stream/play.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="NG" tvg-logo="" group-title="Undefined",Lovetoons TV (720p)
+#EXTGRP:MELANGE TEST
+https://kali1.everestcast.com:3674/stream/play.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="NG" tvg-logo="" group-title="Undefined",Master's TV (720p)
+#EXTGRP:MELMJANGE TEST
+https://mn-nl.mncdn.com/commectv_live/masterstv/index.m3u8?checkedby:iptvcat.com
+#EXTINF:vg-country="NG" tvg-logo="" group-title="Undefined",New Frontiers TV (1080p)
+#EXTGRP:MELMJANGE TEST
 https://media2.streambrothers.com:1936/8044/8044/playlist.m3u8?checkedby:iptvcat.com
